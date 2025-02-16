@@ -1,0 +1,13 @@
+# Ignorar o diretório target (onde o Cargo coloca os arquivos compilados)
+/target/
+
+# Ignorar a pasta de configuração local do cargo
+.cargo/
+
+# Ignorar arquivos de backup (caso use IDEs como VSCode)
+*.rs.bk
+*.lock
+
+# Ignorar arquivos de configuração do editor (se você usar VSCode ou IntelliJ)
+.idea/
+.vscode/
